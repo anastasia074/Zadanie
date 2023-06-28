@@ -88,7 +88,7 @@ public class MyTreeSet <E> {
             putHelper(element, node.right);
         }
         if (cmp == 0) {
-            System.out.println("Element  already exist");
+            System.out.println("Element already exist");
         }
     }
     public E remove(Object key) {
